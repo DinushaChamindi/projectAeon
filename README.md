@@ -1,79 +1,44 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
-
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+>**Note**: Assaignment
 
 ## Step 1: Start the Metro Server
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
+First, you will need to install node modules.
 
 ```bash
 # using npm
-npm start
-
-# OR using Yarn
-yarn start
+npm install
 ```
 
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
+Then, need to install pods, 
 
 ```bash
-# using npm
-npm run android
+cd ios && pod install
 
-# OR using Yarn
-yarn android
 ```
 
-### For iOS
+## Step 2: Start Application
+
+Go back to root and run below
 
 ```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
+# using npx
+npx react-native run-ios
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+If everything is set up _correctly_, you should see your new app running in Simulator.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+after app opens you can see calculator and Hamburg icon in screen.
 
-## Step 3: Modifying your App
+once you click on Hamburg icon, Navigation bar will display.
 
-Now that you have successfully run the app, let's modify it.
+for Challenge 3, you can check metro console and you can see result of below test
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+input: 
+```bash
+console.log(TwoSum([2, 7, 11, 15], 9));
+console.log(TwoSum([2, 3, 4], 6));
+console.log(TwoSum([-1, 0], -1));
+```
+output : 
