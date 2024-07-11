@@ -42,3 +42,4 @@ console.log(TwoSum([2, 3, 4], 6));
 console.log(TwoSum([-1, 0], -1));
 ```
 output : 
+![output](./output.png)
