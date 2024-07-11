@@ -36,7 +36,6 @@ once you click on Hamburg icon, Navigation bar will display.
 ![challenge2](./assets/challenge2.png)
 
 for Challenge 3, you can check metro console and you can see result of below test
-![challenge3](./output.png)
 
 input: 
 ```bash
